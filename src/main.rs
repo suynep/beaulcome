@@ -16,5 +16,5 @@ fn main() {
     let map = args::read_all_flags();
     println!("{:?}", map);
 
-    // ascii::print_message("hello, world");
+    ascii::join_graphemes(ascii::print_message("hello, world")); // test purposes, as of now
 }
