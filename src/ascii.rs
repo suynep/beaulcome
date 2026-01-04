@@ -41,7 +41,7 @@ pub fn print_message(msg: &str) -> Vec<String> {
     all_loaded
 }
 
-pub fn join_graphemes(graphemes: Vec<String>) {
+pub fn join_graphemes(graphemes: Vec<String>) -> String {
     /*
      * TODO: line-wise join for the 12-lines of each letter in letter/
      */
@@ -64,5 +64,5 @@ pub fn join_graphemes(graphemes: Vec<String>) {
         overall.push('\n');
     }
 
-    println!("{overall}");
+    overall
 }
