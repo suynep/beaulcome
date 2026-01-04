@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-
+![](https://github.com/suynep/beaulcome/blob/main/assets/welcome_message.png)
 
 
 ## Todos
