@@ -11,3 +11,8 @@
 
 ## Limitations
 - Support for lower-case ascii chars and some basic symbols `('.', ',', '!', '?')` *ONLY* as of now
+
+
+
+## Footnotes
+> [Jan. 4, '26 5:21 PM] All of the functionalities promised in todos completed.
