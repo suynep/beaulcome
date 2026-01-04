@@ -6,7 +6,7 @@ fn main() {
     let msg = setup::get_msg();
 
     if msg != "" {
-        println!("Received: {msg}");
+        // println!("Received: {msg}");
     } else {
         println!(
             "Couldn't read the message file at {0}",
@@ -36,9 +36,9 @@ fn main() {
         }
     }
 
-    println!("{:?}", map);
+    // println!("{:?}", map);
 
-    let data = ascii::join_graphemes(ascii::print_message(&setup::get_msg())); // test purposes, as of now
+    // let data = ascii::join_graphemes(ascii::print_message(&setup::get_msg())); // test purposes, as of now
 
-    println!("{data}");
+    // println!("{data}");
 }

@@ -30,11 +30,4 @@ pub fn read_all_flags() -> Vec<Flag> {
     map
 }
 
-// pub fn flags_to_logic() -> Option<Vec<Flag>> {
-//     let flags = read_all_flags();
-//     let flags_vec: Vec<Flag> = Vec::new();
-//
-//     for flag in flags {
-//
-//     }
-// }
+// the above flags are implemented in the main function

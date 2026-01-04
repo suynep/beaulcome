@@ -1,9 +1,12 @@
 use std::{collections::HashMap, fs};
 
 fn load_letter(letter: String) -> String {
+    let mut base = std::env::home_dir().unwrap();
     let letter_type: &str = "bigmoney-sw";
-    let letters_path: &str = &format!("letters/{letter_type}");
-    let letter_content = fs::read_to_string(format!("{letters_path}/{letter}"));
+    base.push(".beaulcomeletters");
+    base.push(format!("{letter_type}"));
+    base.push(format!("{letter}"));
+    let letter_content = fs::read_to_string(base);
 
     letter_content.ok().unwrap()
 }
