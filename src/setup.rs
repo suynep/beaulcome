@@ -18,7 +18,7 @@ pub fn get_msg() -> String {
     let opt = fs::read_to_string(home).ok();
 
     if let Some(value) = opt {
-        value
+        value.to_lowercase()
     } else {
         String::from("")
     }
